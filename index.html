@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Tips DApp</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+</head>
+<body>
+    <h1>Email Tips DApp</h1>
+    <div>
+        <h2>Send Email with Tip</h2>
+        <input id="send_address" type="text" placeholder="Recipient Address" />
+        <input id="send_content" type="text" placeholder="Email Content" />
+        <input id="send_tip" type="text" placeholder="Tip Amount in ETH" />
+        <button id="send_button">Send Email</button>
+    </div>
+    <div>
+        <h2>Read Email</h2>
+        <input id="read_emailId" type="text" placeholder="Email ID" />
+        <button id="read_button">Read Email</button>
+    </div>
+    <script src="./dist/main.js" type="module"></script>
+</body>
+</html>
